@@ -1,0 +1,39 @@
+body {
+  background-color: #343a40 !important; /* Dark mode background color */
+ color: #fff; /* Dark mode text color */
+}
+.card-body .btn{
+  text-align: center;
+  display: block;
+  margin-top: -10px;
+}
+.card-text, .card-title{
+  color: #000;
+}
+@media(
+max-width:800px)
+{
+  .card img{
+    height: 585px!important;
+  }
+}
+.card-link:hover .card {
+  border-color: black; /* Altere para a cor que você deseja */
+  border-spacing: 3px;
+}
+.card-link .card{
+  background-color: #ffffff;
+  margin: 0;
+}
+.card-link {
+  text-decoration: none;
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+#animeList{
+  display: flex;
+  flex-wrap:nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+}
